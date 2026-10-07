@@ -1,6 +1,6 @@
 cask "otterbeam" do
-  version "1.11.153,690"
-  sha256 "1a2959aa0fca380f5edac509003cb77930d94110cf74b0db0941d8c9dfe20bbb"
+  version "1.11.154,692"
+  sha256 "11fe6a925bf5cb6e1e79311178d38f4851b32459b303c53265907e0e0cd06b86"
 
   url "https://beam.otterd.com/releases/macos/OtterBeam-#{version.csv.first}+#{version.csv.second}.dmg"
   name "Otter Beam"
