@@ -1,9 +1,9 @@
 cask "otterbeam" do
-  version "1.11.282,958"
-  sha256 "fe5759c5656ed5e0874983cc7d05b3ba1474a9834c0a9d9663b9820b413f0401"
+  version "1.11.283,960"
+  sha256 "7e16418f271e72dfaf86cf7177117cbc972d93c7160b406216824632c533c781"
 
   url "https://beam.otterd.com/releases/macos/OtterBeam-#{version.csv.first}+#{version.csv.second}.dmg"
-  name "Otter Beam"
+  name "Otar"
   desc "Command your coding agents, terminals and computers from any device"
   homepage "https://beam.otterd.com/about"
 
@@ -15,7 +15,7 @@ cask "otterbeam" do
   auto_updates true
   depends_on macos: ">= :sonoma"
 
-  app "OtterBeam.app"
+  app "Otar.app"
 
   zap trash: [
     "~/Library/Application Support/OtterBeam",
